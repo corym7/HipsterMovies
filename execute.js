@@ -8,6 +8,7 @@ $(document).ready(function() {
 	var gSelected = true;
 	$(".headButton1").click(function(){
 		$(".g").slideToggle(300)
+		$(".titleg").slideToggle(300)
 		//stuff happens when you click the G button
 		if(gSelected==true){
 			$(".headButton1").css("border-color","rgba(149,165,166,0");
@@ -19,6 +20,7 @@ $(document).ready(function() {
 	});
 	var pgSelected = true;
 	$(".headButton2").click(function(){
+		$(".titlepg").slideToggle(300)
 		$(".pg").slideToggle(300)
 		//stuff happens when you click the PG button
 		if(pgSelected==true){
@@ -32,6 +34,7 @@ $(document).ready(function() {
 	var pg13_Selected = true;
 	$(".headButton3").click(function(){
 		$(".pg13").slideToggle(300)
+		$(".title13").slideToggle(300)
 		//stuff happens when you click the PG-13 button
 			if(pg13_Selected==true){
 			$(".headButton3").css("border-color","rgba(149,165,166,0");
@@ -44,6 +47,7 @@ $(document).ready(function() {
 	var rSelected = true;
 	$(".headButton4").click(function(){
 		$(".r").slideToggle(300)
+		$(".titler").slideToggle(300)
 		//stuff happens when you click the R button
 		if(rSelected==true){
 			$(".headButton4").css("border-color","rgba(149,165,166,0");
